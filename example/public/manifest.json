@@ -1,6 +1,6 @@
 {
-  "short_name": "create-react-library",
-  "name": "create-react-library",
+  "short_name": "personal-library",
+  "name": "personal-library",
   "icons": [
     {
       "src": "favicon.ico",

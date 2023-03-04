@@ -1,13 +1,13 @@
-# create-react-library
+# personal-library
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/create-react-library.svg)](https://www.npmjs.com/package/create-react-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/personal-library.svg)](https://www.npmjs.com/package/personal-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save create-react-library
+npm install --save personal-library
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save create-react-library
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'create-react-library'
-import 'create-react-library/dist/index.css'
+import MyComponent from 'personal-library'
+import 'personal-library/dist/index.css'
 
 class Example extends Component {
   render() {

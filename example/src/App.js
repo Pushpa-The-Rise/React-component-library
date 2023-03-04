@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { ExampleComponent } from 'create-react-library'
-import 'create-react-library/dist/index.css'
+import { ExampleComponent } from 'personal-library'
+import 'personal-library/dist/index.css'
 
 const App = () => {
   return <ExampleComponent text="Create React Library Example 😄" />
