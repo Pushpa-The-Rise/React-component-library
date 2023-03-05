@@ -1,5 +1,9 @@
 /* add css module styles here (optional) */
 
+body {
+  background-color: #c9c9c9ad;
+}
+
 .test {
   margin: 2em;
   padding: 0.5em;

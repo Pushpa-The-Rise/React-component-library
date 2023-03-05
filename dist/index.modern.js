@@ -1,14 +1,33 @@
 import React from 'react';
 
-var styles = {"test":"_styles-module__test__3ybTi"};
-
-const ExampleComponent = ({
-  text
-}) => {
-  return /*#__PURE__*/React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
+const Button = () => {
+  const [count, setCount] = React.useState(0);
+  const onCount = () => {
+    setCount(count + 1);
+  };
+  const onMinues = () => {
+    setCount(count - 1);
+  };
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
+    onClick: onCount
+  }, "Add"), count, /*#__PURE__*/React.createElement("button", {
+    onClick: onMinues
+  }, "Minus"));
 };
 
-export { ExampleComponent };
+const Test = () => {
+  const refText = React.useRef();
+  const handleClick = () => {
+    refText.current.innerHTML = 'Milan';
+  };
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
+    ref: refText
+  }, "Sachani"), /*#__PURE__*/React.createElement("button", {
+    onClick: handleClick
+  }, "Click Me!"));
+};
+
+var styles_module = {"test":"_styles-module__test__3ybTi"};
+
+export { Button, Test, styles_module as styles };
 //# sourceMappingURL=index.modern.js.map
