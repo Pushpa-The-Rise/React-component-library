@@ -14,7 +14,7 @@ var Button = function Button() {
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
     onClick: onCount
-  }, "Add"), count, /*#__PURE__*/React.createElement("button", {
+  }, "Add"), /*#__PURE__*/React.createElement("h1", null, count), /*#__PURE__*/React.createElement("button", {
     onClick: onMinues
   }, "Minus"));
 };
@@ -31,7 +31,7 @@ var Test = function Test() {
   }, "Click Me!"));
 };
 
-var styles_module = {"test":"_styles-module__test__3ybTi"};
+var styles_module = {"test":"_3ybTi"};
 
 exports.Button = Button;
 exports.Test = Test;

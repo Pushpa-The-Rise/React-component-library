@@ -6,7 +6,7 @@ import 'personal-library/dist/index.css'
 const App = () => {
   return (
     <>
-      <Button>Click</Button>
+      <Button />
       <Test />
     </>
   )

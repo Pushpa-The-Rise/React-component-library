@@ -14,7 +14,7 @@ export const Button = () => {
   return (
     <div>
       <button onClick={onCount}>Add</button>
-      {count}
+      <h1>{count}</h1>
       <button onClick={onMinues}>Minus</button>
     </div>
   )
