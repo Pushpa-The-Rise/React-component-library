@@ -13,16 +13,20 @@ npm install --save personal-library
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'personal-library'
+import Button from 'personal-library'
 import 'personal-library/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <>
+      <Button>Click</Button>
+    </>
+  )
 }
+
+export default App
 ```
 
 ## License
