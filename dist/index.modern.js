@@ -18,7 +18,7 @@ const Button = () => {
 const Test = () => {
   const refText = React.useRef();
   const handleClick = () => {
-    refText.current.innerHTML = 'Milan';
+    refText.current.innerHTML = 'Milan!';
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
     ref: refText

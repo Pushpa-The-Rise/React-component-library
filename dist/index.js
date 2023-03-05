@@ -22,7 +22,7 @@ var Button = function Button() {
 var Test = function Test() {
   var refText = React.useRef();
   var handleClick = function handleClick() {
-    refText.current.innerHTML = 'Milan';
+    refText.current.innerHTML = 'Milan!';
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
     ref: refText

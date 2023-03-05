@@ -4,7 +4,7 @@ export const Test = () => {
   const refText = React.useRef()
 
   const handleClick = () => {
-    refText.current.innerHTML = 'Milan'
+    refText.current.innerHTML = 'Milan!'
   }
 
   return (
