@@ -1,13 +1,11 @@
 import React from 'react';
 
-var Button = function Button() {
-  var _React$useState = React.useState(0),
-    count = _React$useState[0],
-    setCount = _React$useState[1];
-  var onCount = function onCount() {
+const Button = () => {
+  const [count, setCount] = React.useState(0);
+  const onCount = () => {
     setCount(count + 1);
   };
-  var onMinues = function onMinues() {
+  const onMinues = () => {
     setCount(count - 1);
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
@@ -17,10 +15,10 @@ var Button = function Button() {
   }, "Minus"));
 };
 
-var Test = function Test() {
-  var refText = React.useRef();
-  var handleClick = function handleClick() {
-    refText.current.innerHTML = 'Milan';
+const Test = () => {
+  const refText = React.useRef();
+  const handleClick = () => {
+    refText.current.innerHTML = 'Milan!';
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
     ref: refText
@@ -29,7 +27,7 @@ var Test = function Test() {
   }, "Click Me!"));
 };
 
-var styles_module = {"test":"_3ybTi"};
+var styles_module = {"test":"_styles-module__test__3ybTi"};
 
 export { Button, Test, styles_module as styles };
 //# sourceMappingURL=index.modern.js.map

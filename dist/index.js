@@ -22,7 +22,7 @@ var Button = function Button() {
 var Test = function Test() {
   var refText = React.useRef();
   var handleClick = function handleClick() {
-    refText.current.innerHTML = 'Milan';
+    refText.current.innerHTML = 'Milan!';
   };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", {
     ref: refText
@@ -31,7 +31,7 @@ var Test = function Test() {
   }, "Click Me!"));
 };
 
-var styles_module = {"test":"_3ybTi"};
+var styles_module = {"test":"_styles-module__test__3ybTi"};
 
 exports.Button = Button;
 exports.Test = Test;
